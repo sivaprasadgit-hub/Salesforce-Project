@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Department --></label>
+    <name>Department__c</name>
+    <picklistValues>
+        <masterLabel>AERONAUTICAL</masterLabel>
+        <translation><!-- AERONAUTICAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CHEMICAL</masterLabel>
+        <translation><!-- CHEMICAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CIVIL</masterLabel>
+        <translation><!-- CIVIL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CSE</masterLabel>
+        <translation><!-- CSE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ECE</masterLabel>
+        <translation><!-- ECE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EEE</masterLabel>
+        <translation><!-- EEE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT</masterLabel>
+        <translation><!-- IT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MECH</masterLabel>
+        <translation><!-- MECH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>METALLURGY</masterLabel>
+        <translation><!-- METALLURGY --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

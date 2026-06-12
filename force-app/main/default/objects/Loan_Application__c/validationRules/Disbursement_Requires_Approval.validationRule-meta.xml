@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disbursement_Requires_Approval</fullName>
+    <active>true</active>
+    <description>Disbursement requires approval</description>
+    <errorConditionFormula>OR(
+/* if approved and date not there*/
+AND(
+ISPICKVAL( Application_Status__c , &apos;Approved&apos;),
+ISBLANK( Disbursement_Date__c )
+),
+/* if not approved and date is present */
+AND(
+NOT(ISPICKVAL(Application_Status__c , &apos;Approved&apos;)),
+NOT(ISBLANK(Disbursement_Date__c ))
+)
+)</errorConditionFormula>
+    <errorMessage>Disbursement date should be mentioned if application is approved</errorMessage>
+</ValidationRule>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Payment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Payments</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Paid amount cannot be more than EMI and Late Fee --></errorMessage>
+        <name>Paid_Amount_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Payment date cannot be blank if payment is paid. --></errorMessage>
+        <name>Paid_data_Consistency</name>
+    </validationRules>
+</CustomObjectTranslation>

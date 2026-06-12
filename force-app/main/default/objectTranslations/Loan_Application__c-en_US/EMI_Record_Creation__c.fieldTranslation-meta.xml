@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- EMI Record Creation --></label>
+    <name>EMI_Record_Creation__c</name>
+    <picklistValues>
+        <masterLabel>EMI&apos;s Created</masterLabel>
+        <translation><!-- EMI&apos;s Created --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EMI&apos;s Not created</masterLabel>
+        <translation><!-- EMI&apos;s Not created --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

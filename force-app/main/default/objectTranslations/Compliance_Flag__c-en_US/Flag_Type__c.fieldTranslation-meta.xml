@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Flag Type --></label>
+    <name>Flag_Type__c</name>
+    <picklistValues>
+        <masterLabel>AML</masterLabel>
+        <translation><!-- AML --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PEP</masterLabel>
+        <translation><!-- PEP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sanctions</masterLabel>
+        <translation><!-- Sanctions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unusual</masterLabel>
+        <translation><!-- Unusual --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

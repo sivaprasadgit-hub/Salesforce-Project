@@ -1,0 +1,24 @@
+<apex:page controller="ApprovalManager" lightningStylesheets="true">
+    <apex:form >
+        <apex:outputPanel id="buttonPanel">
+        <div style = "text-align:center">
+        <apex:commandButton action="{!ApproveDeal}" value="Approve" rendered="{!showButton1}"  style="width:120px; height:50px" />
+            
+        </div>
+            <br/>
+       
+            <div style = "text-align:center">
+                <apex:commandButton action="{!approveMethod}" value="Submit" rendered="{!showButton3}" style="width:120px; height:50px" />
+            </div>
+            <br/>
+        
+        <div style = "text-align:center">
+        <apex:commandButton action="{!RejectDeal}" value="Reject" rendered="{!showButton2}"  style="width:120px; height:50px" />
+        </div>
+            
+            </apex:outputPanel>
+        <apex:actionFunction name="refreshButtons" rerender="buttonPanel"/>
+        
+    </apex:form>
+
+</apex:page>

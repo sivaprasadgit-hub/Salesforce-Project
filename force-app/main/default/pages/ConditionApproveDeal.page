@@ -1,0 +1,14 @@
+<apex:page controller="ConditionProcess" lightningStylesheets="true">
+    <apex:form >
+        <apex:outputPanel id="buttonPanel">
+        <div style = "text-align:center">
+        <apex:commandButton action="{!approvemethod}" value="Submit" rendered="{!showButton}"  style="width:120px; height:50px" />
+            
+        </div>
+            </apex:outputPanel>
+        <apex:actionFunction name="refreshButtons" rerender="buttonPanel"/>
+   
+       
+    </apex:form>
+
+</apex:page>

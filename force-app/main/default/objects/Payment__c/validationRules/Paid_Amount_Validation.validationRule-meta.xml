@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Paid_Amount_Validation</fullName>
+    <active>true</active>
+    <description>Paid amount cannot be more than EMI and Late Fee</description>
+    <errorConditionFormula>IF( Paid_Amount__c &gt;  Scheduled_EMI__c +  Late_Fee__c , TRUE, False)</errorConditionFormula>
+    <errorDisplayField>Paid_Amount__c</errorDisplayField>
+    <errorMessage>Paid amount cannot be more than EMI and Late Fee</errorMessage>
+</ValidationRule>

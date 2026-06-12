@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CSE_Students</fullName>
+    <columns>NAME</columns>
+    <columns>College__c</columns>
+    <columns>Department__c</columns>
+    <columns>Email__c</columns>
+    <columns>Alumini__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Department__c</field>
+        <operation>equals</operation>
+        <value>CSE</value>
+    </filters>
+    <label>CSE Students</label>
+</ListView>

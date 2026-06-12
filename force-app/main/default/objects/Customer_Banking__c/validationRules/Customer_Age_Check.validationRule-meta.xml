@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Age_Check</fullName>
+    <active>true</active>
+    <description>Customer should be above 18 years old</description>
+    <errorConditionFormula>Date_of_Birth__c &gt; TODAY() - 6570</errorConditionFormula>
+    <errorDisplayField>Date_of_Birth__c</errorDisplayField>
+    <errorMessage>Customer should be 18 years old</errorMessage>
+</ValidationRule>

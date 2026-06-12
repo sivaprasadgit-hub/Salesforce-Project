@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PAN_Card_Format</fullName>
+    <active>true</active>
+    <description>Pan card number should be mentioned in a proper way.</description>
+    <errorConditionFormula>AND(
+NOT(ISBLANK( PAN_Number__c )),
+
+NOT(REGEX( PAN_Number__c , &apos;^[A-Z]{5}[0-9]{4}[A-Z]{1}$&apos;))
+)</errorConditionFormula>
+    <errorDisplayField>PAN_Number__c</errorDisplayField>
+    <errorMessage>Invalid PAN Format.
+Eg: [JALAU][7585][E]</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Change_Alumni</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (ISCHANGED( Alumini__c ), 
+ TEXT(PRIORVALUE( Alumini__c )) = &quot;YES&quot;,
+ ISPICKVAL( Alumini__c , &quot;NO&quot;))</errorConditionFormula>
+    <errorDisplayField>Alumini__c</errorDisplayField>
+    <errorMessage>Student Alumni status cannot be updated if student left the college.</errorMessage>
+</ValidationRule>

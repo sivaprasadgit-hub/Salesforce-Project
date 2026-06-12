@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Unit__c</fullName>
+    <label>Business Unit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GEHC-IT</fullName>
+                <default>false</default>
+                <label>GEHC-IT</label>
+            </value>
+            <value>
+                <fullName>GEHC-LS</fullName>
+                <default>false</default>
+                <label>GEHC-LS</label>
+            </value>
+            <value>
+                <fullName>HCS</fullName>
+                <default>false</default>
+                <label>HCS</label>
+            </value>
+            <value>
+                <fullName>API</fullName>
+                <default>false</default>
+                <label>API</label>
+            </value>
+            <value>
+                <fullName>Channel Partner</fullName>
+                <default>false</default>
+                <label>Channel Partner</label>
+            </value>
+            <value>
+                <fullName>GS USCAN</fullName>
+                <default>false</default>
+                <label>GS USCAN</label>
+            </value>
+            <value>
+                <fullName>Bimoed</fullName>
+                <default>false</default>
+                <label>Bimoed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Expense Type --></label>
+    <name>Expense_Type__c</name>
+    <picklistValues>
+        <masterLabel>IT Infra</masterLabel>
+        <translation><!-- IT Infra --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Misc</masterLabel>
+        <translation><!-- Misc --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rent</masterLabel>
+        <translation><!-- Rent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salary</masterLabel>
+        <translation><!-- Salary --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blacklisted_Customer</fullName>
+    <active>true</active>
+    <description>Blacklisted customer cannot be taken.</description>
+    <errorConditionFormula>Blacklist__c</errorConditionFormula>
+    <errorMessage>Loan application cannot be created for Blacklisted Customer</errorMessage>
+</ValidationRule>

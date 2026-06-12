@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Student</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Students</value>
+    </caseValues>
+    <layouts>
+        <layout>Student Layout</layout>
+        <sections>
+            <label><!-- Alumni Details --></label>
+            <section>Alumni Details</section>
+        </sections>
+        <sections>
+            <label><!-- College Details --></label>
+            <section>College Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fee Details --></label>
+            <section>Fee Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Student Alumni status cannot be updated if student left the college. --></errorMessage>
+        <name>Cannot_Change_Alumni</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- College left date cannot be populated, if student is not a Alumni --></errorMessage>
+        <name>College_Left_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Date of birth must be in Past --></errorMessage>
+        <name>Date_of_Birth_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- College left date cannot be blank if student is Alumni --></errorMessage>
+        <name>Left_cannot_be_blank</name>
+    </validationRules>
+</CustomObjectTranslation>

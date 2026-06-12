@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Investment Type --></label>
+    <name>Investment_Type__c</name>
+    <picklistValues>
+        <masterLabel>Bond</masterLabel>
+        <translation><!-- Bond --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FD</masterLabel>
+        <translation><!-- FD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MF</masterLabel>
+        <translation><!-- MF --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stock</masterLabel>
+        <translation><!-- Stock --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

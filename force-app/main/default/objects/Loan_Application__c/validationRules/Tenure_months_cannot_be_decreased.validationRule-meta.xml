@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tenure_months_cannot_be_decreased</fullName>
+    <active>false</active>
+    <description>Tenure months are can be increased based on customer requirement, but cannot be decreased.</description>
+    <errorConditionFormula>IF( Tenure_Months__c &lt;  PRIORVALUE( Tenure_Months__c ),True,False)</errorConditionFormula>
+    <errorDisplayField>Tenure_Months__c</errorDisplayField>
+    <errorMessage>Tenure months cannot be decresed</errorMessage>
+</ValidationRule>

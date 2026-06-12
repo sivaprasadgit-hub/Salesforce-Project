@@ -1,0 +1,3 @@
+This is informing that new User is attending the Event.
+Event Name: {!Event_Management__c.Name}
+New Participant: {!Participant__c.Name} attending the event at {!Participant__c.Location__c}

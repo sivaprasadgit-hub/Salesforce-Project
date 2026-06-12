@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Cancelation_Reason__c</fullName>
+    <label>Case Cancelation Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fixed by Customer</fullName>
+                <default>false</default>
+                <label>Fixed by Customer</label>
+            </value>
+            <value>
+                <fullName>Quotation not accepted</fullName>
+                <default>false</default>
+                <label>Quotation not accepted</label>
+            </value>
+            <value>
+                <fullName>Opened by Mistake</fullName>
+                <default>false</default>
+                <label>Opened by Mistake</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>Clinical Education</fullName>
+                <default>false</default>
+                <label>Clinical Education</label>
+            </value>
+            <value>
+                <fullName>Credit is on Hold</fullName>
+                <default>false</default>
+                <label>Credit is on Hold</label>
+            </value>
+            <value>
+                <fullName>PM every Two Years</fullName>
+                <default>false</default>
+                <label>PM every Two Years</label>
+            </value>
+            <value>
+                <fullName>On manager Demand</fullName>
+                <default>false</default>
+                <label>On manager Demand</label>
+            </value>
+            <value>
+                <fullName>No PM Required</fullName>
+                <default>false</default>
+                <label>No PM Required</label>
+            </value>
+            <value>
+                <fullName>Removed from Contract</fullName>
+                <default>false</default>
+                <label>Removed from Contract</label>
+            </value>
+            <value>
+                <fullName>Customer Unresponsive</fullName>
+                <default>false</default>
+                <label>Customer Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Cancelled by Customer</fullName>
+                <default>false</default>
+                <label>Cancelled by Customer</label>
+            </value>
+            <value>
+                <fullName>Device not found on Site</fullName>
+                <default>false</default>
+                <label>Device not found on Site</label>
+            </value>
+            <value>
+                <fullName>Device Discommissioned</fullName>
+                <default>false</default>
+                <label>Device Discommissioned</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

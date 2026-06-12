@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer Banking</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customers</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Loan application cannot be created for Blacklisted Customer --></errorMessage>
+        <name>Blacklisted_Customer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Customer should be 18 years old --></errorMessage>
+        <name>Customer_Age_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>
+            <!-- Invalid PAN Format.
+Eg: [JALAU][7585][E] -->
+        </errorMessage>
+        <name>PAN_Card_Format</name>
+    </validationRules>
+</CustomObjectTranslation>

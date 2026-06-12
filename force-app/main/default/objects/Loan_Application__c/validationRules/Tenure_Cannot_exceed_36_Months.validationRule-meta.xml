@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tenure_Cannot_exceed_36_Months</fullName>
+    <active>true</active>
+    <description>Small loans cannot exceed 3 years of Tenure</description>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(  Principal_Amount__c )),
+NOT(ISBLANK( Tenure_Months__c )),
+Principal_Amount__c &lt; 50000,
+Tenure_Months__c &gt;36
+)</errorConditionFormula>
+    <errorDisplayField>Tenure_Months__c</errorDisplayField>
+    <errorMessage>Small loans cannot exceed 3 years of Tenure</errorMessage>
+</ValidationRule>

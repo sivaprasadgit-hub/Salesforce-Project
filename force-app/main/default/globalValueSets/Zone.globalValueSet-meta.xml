@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>East Asia</fullName>
+        <default>false</default>
+        <label>East Asia</label>
+    </customValue>
+    <customValue>
+        <fullName>Oceania</fullName>
+        <default>false</default>
+        <label>Oceania</label>
+    </customValue>
+    <customValue>
+        <fullName>Southeast Asia</fullName>
+        <default>false</default>
+        <label>Southeast Asia</label>
+    </customValue>
+    <customValue>
+        <fullName>Africa</fullName>
+        <default>false</default>
+        <label>Africa</label>
+    </customValue>
+    <customValue>
+        <fullName>Europe</fullName>
+        <default>false</default>
+        <label>Europe</label>
+    </customValue>
+    <customValue>
+        <fullName>Middle East</fullName>
+        <default>false</default>
+        <label>Middle East</label>
+    </customValue>
+    <customValue>
+        <fullName>UK + Ireland</fullName>
+        <default>false</default>
+        <label>UK + Ireland</label>
+    </customValue>
+    <customValue>
+        <fullName>Mexico</fullName>
+        <default>false</default>
+        <label>Mexico</label>
+    </customValue>
+    <customValue>
+        <fullName>Caribbean</fullName>
+        <default>false</default>
+        <label>Caribbean</label>
+    </customValue>
+    <customValue>
+        <fullName>Central America</fullName>
+        <default>false</default>
+        <label>Central America</label>
+    </customValue>
+    <customValue>
+        <fullName>South America</fullName>
+        <default>false</default>
+        <label>South America</label>
+    </customValue>
+    <customValue>
+        <fullName>Midwest US</fullName>
+        <default>false</default>
+        <label>Midwest US</label>
+    </customValue>
+    <customValue>
+        <fullName>Northeast US</fullName>
+        <default>false</default>
+        <label>Northeast US</label>
+    </customValue>
+    <customValue>
+        <fullName>Southeast US</fullName>
+        <default>false</default>
+        <label>Southeast US</label>
+    </customValue>
+    <customValue>
+        <fullName>Southwest US</fullName>
+        <default>false</default>
+        <label>Southwest US</label>
+    </customValue>
+    <customValue>
+        <fullName>West US</fullName>
+        <default>false</default>
+        <label>West US</label>
+    </customValue>
+    <customValue>
+        <fullName>Northern Canada</fullName>
+        <default>false</default>
+        <label>Northern Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>Mountains and the West</fullName>
+        <default>false</default>
+        <label>Mountains and the West</label>
+    </customValue>
+    <customValue>
+        <fullName>The Prairies</fullName>
+        <default>false</default>
+        <label>The Prairies</label>
+    </customValue>
+    <customValue>
+        <fullName>Central Canada</fullName>
+        <default>false</default>
+        <label>Central Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>East Coast</fullName>
+        <default>false</default>
+        <label>East Coast</label>
+    </customValue>
+    <masterLabel>Zone</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

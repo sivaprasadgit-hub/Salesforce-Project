@@ -1,0 +1,2 @@
+Hi {!Participant__c.Name},
+Your are Successfully Registered to the {!Event_Management__c.Name} Event.
